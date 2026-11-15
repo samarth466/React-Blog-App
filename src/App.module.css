@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: min(100% - 32px, 900px);
+  margin: 32px auto;
+  flex: 1;
+}
+
+.main h1,
+.main h2 {
+  color: var(--heading);
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: calc(100% - 24px);
+    margin: 20px auto;
+  }
+
+  .main h1 {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  background: var(--header-background);
+  color: var(--header-text);
+  text-align: center;
+  padding: 24px;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 6px 0;
+}
+
+.footer a {
+  color: var(--header-text);
+}
