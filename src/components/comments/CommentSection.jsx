@@ -14,6 +14,7 @@ function CommentSection({ comments, onAddComment, loading = false, error = ""}) 
         <>
         <CommentForm onAddComment={onAddComment}/>
         <CommentList comments={comments}/>
+        </>
       )}
     </section>
   );
